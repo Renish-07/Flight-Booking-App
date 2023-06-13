@@ -1,5 +1,7 @@
 import React from 'react';
 import './ServicePage.js';
+import logo from './parzi.gif'
+
 
 export default function ServicePage({ history }) {
 
@@ -31,7 +33,7 @@ export default function ServicePage({ history }) {
         <div className="container">
             <div>
                 <nav className="mb-4 navbar navbar-expand-lg navbar-dark bg-unique hm-gradient">
-                    <a href="/#" className="navbar-brand Company-Log">SA</a>
+                    <a href="/#" className="navbar-brand Company-Log">Voyager</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -48,8 +50,8 @@ export default function ServicePage({ history }) {
                 </nav>
             </div>
             <div >
-            
-            <iframe src="https://giphy.com/embed/SY2hQpAMLnuxtgLT5C" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <img style={{width: "80%", height: "40%" ,margin: 110 }} src={logo} alt="loading..." />
+
             </div>
 
         </div>

@@ -33,7 +33,7 @@ export default function RouteSelection({ history }) {
         <div className="container">
             <div>
                 <nav className="mb-4 navbar navbar-expand-lg navbar-dark bg-unique hm-gradient">
-                    <a href="/#" className="navbar-brand Company-Log" onClick={(e) => handleLogoClick(e)}>SA</a>
+                    <a href="/#" className="navbar-brand Company-Log" onClick={(e) => handleLogoClick(e)}>Voyager</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -69,9 +69,7 @@ export default function RouteSelection({ history }) {
                     <li className="nav-item">
                         <a className="nav-link" data-toggle="pill" href="#menu5">Flight Status</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" data-toggle="pill" href="#menu6">Additional Services</a>
-                    </li>
+                   
                     <li className="nav-item">
                         <a className="nav-link" data-toggle="pill" href="#menu8">Customer Service</a>
                     </li>
